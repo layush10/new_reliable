@@ -1,0 +1,11 @@
+version: "3.0"
+
+nlu:
+- intent: agent_training_info
+  examples: |
+    - training info
+    - This training is face to face or online ? Can we join the training from abroad ?
+    - training
+    - from where can we get tranning 
+    - how can i join agent training
+    

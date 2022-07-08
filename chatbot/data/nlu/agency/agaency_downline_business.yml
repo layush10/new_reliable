@@ -1,0 +1,81 @@
+version: "3.0"
+
+nlu:
+- intent: agency_downline_business
+  examples: |
+    - agent downline business
+    - total business
+    - My business
+    - Hey i want to see my business
+    - business history
+    - why can't i see business history and agent detail?
+    - my total business
+    - business inquire
+    - I want to know my team bussiness
+    - My total businesa
+    - My total business
+    - My total business of poush.
+    - Business history
+    - agent business
+    - my agent downline business
+    - i want to know my agent downline business detail
+    - my downline business 
+    - down line agency
+    - down line
+    - downline
+    - My buiness detals
+    - My buiness detels
+    - My agent list
+    - I need my detail business
+    - Show my detail business
+    - I want to know my total business details
+    - Total bussiness
+    - Total business of mine
+    - Agent code business detail
+    - Agent business details
+    - How could i see my downline structure
+    - Team agents
+    - Team visennrs
+    - Beznnesh report
+    - Branch business
+    - I want to see downline member
+    - Plase provide me customs list
+    - my code agent business
+    - Down line commession
+    - About customers
+    - Customer
+    - My down
+    - I want to know about my customers
+    - Total Clint name in my code
+    - How to find down line list
+    - What's the my downline number
+    - Total bussiness of code 
+    - down lone
+    - agent downline
+    - My team business
+    - My team
+    - Self code business
+    - team details
+    - total bissnes 
+    - How much Total business in my code
+    - Down line commission
+    - I want to see my business details
+    - Downline details
+    - Downline Agent
+    - downline detail
+    - All business
+    - i want to know agent of my downline business
+    - how to see downline business?
+    - sealf code bisnes
+    - Agency business
+    - Agency downline list
+    - my total downline business
+    - my total businesses
+    - agency downline business
+    - agent code business
+    - self code downline business
+    - my downline agent list ? 
+
+
+
+    

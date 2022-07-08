@@ -1,0 +1,17 @@
+version: "3.0"
+
+nlu:
+- intent: branch_manager_number
+  examples: |
+    - can i get branch manager number?
+    - i want to call branch manager of [kathmandu]{"entity":"location", "value": "kathmandu"}
+    - i want to text branch manager
+    - i need to talk to branch magaer
+    - can i call branch head?
+    - can i get branch head number?
+    - can i  get branch head number
+    - i need to call branch
+    - i need to talk to branch 
+    - i want to call manager of [kathmandu]{"entity":"location","value":"kathmandu"} branch
+
+  

@@ -1,0 +1,17 @@
+version: "3.0"
+
+nlu:
+- intent: branch_location_near_me
+  examples: |
+    - branch location
+    - location of jumla branch
+    - Where is the location of the office?
+    - [Bhalubang branch]{"entity":"branch", "value": "Bhalinag branch"}
+    - Branch Locator
+    - [Biratnagar branch]{"entity":"branch", "value": "Biratnagar branch"}
+    - [Lahan branch]{"entity":"branch", "value": "Lahan branch"}
+    - [Bhaktapur]{"entity":"branch", "value": "bhaktapur"}
+    - [Okhaldhunga] {"entitty":"branch", "value": "okhaldhunga"}have a reliable  life?
+    - address route
+    - Location about [itahari branch]{"entity":"branch", "value": "ithari branch"}? 
+    - branch location near me

@@ -1,0 +1,37 @@
+version: "3.0"
+
+nlu:
+- intent: agency_commission
+  examples: |
+    - agent commission
+    - commission of issued policy
+    - I want to see Commision of issued poicy
+    - i am agent i want to see my commission of policy issued
+    - can i see commission of policy issued
+    - what is the commission of policy i issued
+    - i am agent can i see my commission of policy issued
+    - where can i contact to see my commission of policy issued
+    - help me to see the commission of premium issued
+    - premium issued commission
+    - what commission you provide for policy issued
+    - i am agent i have issued a policy what commission i will get
+    - interested to know what commission you provide for policy issued
+    - i want to know commission of policy issued i am agent
+    - i want to know my commission for policy i issued
+    - what commission i will get for the policy issued
+    - can you tell me the commission percenatge of policy issued
+    - percentage of commission for agent
+    - agent commission
+    - where to contact to know about the commission of issued policy
+    - percentage of commission for policy issued
+    - show me my commission of policy issued
+    - being agent what commission i will get on issued policy
+    - i am an agent i want to know my commission
+    - let me know my commission for issued policies
+    - i want to know commision for issued policies
+    - help me to get my commission on issued policies
+    - can i see my commission on issued policies
+    - want to see my commission
+    - can i know my commisssion on issued policies 
+    - my commission percentage
+    - commission statement

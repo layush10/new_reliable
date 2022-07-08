@@ -1,0 +1,12 @@
+version: "3.0"
+
+nlu:
+- intent: policy_deu
+  examples: |
+    - i want to see a policy deu
+    - show me my policy deu
+    - Want to know about my due premium amount
+    - i am an [agent] (agent_type)and i want to see my policy deu
+    - want to see my policy deu as an [agennt] (agent_type)
+    - i am an [policy holder](agent_type) and i want to see my policy deu
+    - want to see my policy deu as a [policy holder](agent_type)

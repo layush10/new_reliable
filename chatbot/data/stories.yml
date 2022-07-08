@@ -1,0 +1,148 @@
+version: "3.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: action_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: action_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: action_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: agency downline business
+  steps:
+  - intent: agency_downline_business
+  - action: utter_agency_downline_business
+
+- story: agency policy date
+  steps:
+  - intent: agency_policy_date
+  - action: utter_agency_policy_date
+
+- story: agency 
+  steps:
+  - intent: agency
+  - action: utter_agency
+
+- story: agency commission
+  steps:
+  - intent: agency_commission
+  - action: utter_agency_commission
+
+- story: agent fee
+  steps:
+  - intent: agent_fee
+  - action: utter_agent_fee
+  
+- story: agent info detail
+  steps:
+  - intent: agent_info_detail
+  - action: utter_agent_info_detail
+
+- story: agent login
+  steps:
+  - intent: agent_login
+  - action: utter_agent_login
+
+
+- story: agent edit_update_profile
+  steps:
+  - intent: edit_update_profile
+  - action: utter_edit_update_profile
+
+- story: agent policy
+  steps:
+  - intent: agent_policy
+  - action: utter_agent_policy
+
+- story: agent required documents
+  steps:
+  - intent: agent_required_documents
+  - action: utter_agent_required_documents
+
+- story: agent trainning info
+  steps:
+  - intent: agent_training_info
+  - action: utter_agent_training_info
+
+- story: corporate agent
+  steps:
+  - intent: corporate_agent
+  - action: utter_corporate_agent
+
+- story: branch location near me stories
+  steps:
+  - intent: branch_location_near_me
+  - action: utter_branch_location_near_me
+
+- story:  branch manager number stories
+  steps:
+  - intent: branch_manager_number
+  - action: utter_branch_manager_number
+
+- story: reliable branch stories
+  steps:
+  - intent: reliable_branch
+
+  - action:  utter_reliable_branch
+
+- story: reliabe head office branch
+  steps:
+  - intent: relliable_head_office
+  - action: utter_relliable_head_office
+
+- story: reliable payment receipt
+  steps:
+  - intent: payment_receipt
+  - action: utter_payment_receipt
+
+- story: reliable payment 
+  steps:
+  - intent: payment
+  - action: utter_payment
+
+
+- story: for agent 
+  steps:
+  - intent: greet
+  - action: action_greet
+  - intent: policy_deu
+  - action: utter_policy_deu
+  - intent: policy_deu
+    entities:
+    - agent_type: agent
+  - action: 
+
+- story: for policy holder
+  steps:
+  - intent: greet
+  - action: action_greet
+  - intent: policy_deu
+  - action: utter_policy_deu
+  - intent: policy_deu
+    entities:
+    - agent_type: policy holder
+  - action: utter_agent
+
+
+

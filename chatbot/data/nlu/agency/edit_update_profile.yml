@@ -1,0 +1,51 @@
+version: "3.0"
+
+nlu:
+- intent: edit_update_profile
+  examples: |
+    - Update my PAN Number
+    - agent pin
+    - Update my pin
+    - I want to update my pin
+    - i want to update my pan number
+    - want to change pan number
+    - i am agent change my pan number
+    - i am agent how can i update my pan number
+    - i want to update pan number i am agent
+    - help to update agent pan number
+    - how can agent update pan number
+    - can agent change pan number
+    - is it possible to update pan number i am agent
+    - requirements to change pan number of agent
+    - what documents do i need to change my pan number
+    - help me to change my pan number i am agent
+    - interested to change pan number
+    - i am agent i want to give my new pan number
+    - i have to change my old pan number with new i am agent
+    - steps to update agent pan number
+    - where do i contact to modify my pan number
+    - i am your agent how can i change my pan number
+    - easy way to update pan number
+    - asking to update agents pan number
+    - plz help me to update my pan number
+    - i want to update pan
+    - i need to update my pan number
+    - could you help me to update my pan number
+    - would you please tell me how can i update my pan number
+    - how can i update my pan number
+    - i want to change my pan number
+    - need to change agent pan number
+    - how to update my agent pan details
+    - what is the procedure to update pan number
+    - process to change pan number
+    - what is the process to change my pan detail
+    - can you tell me the process to change my pan detail
+    - pan no update
+    - i want to change my pan no
+    - pan no update or not
+    - how to update pan number
+    - need to update pan number
+
+
+
+

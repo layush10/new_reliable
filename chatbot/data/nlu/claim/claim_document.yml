@@ -1,0 +1,29 @@
+version: "3.0"
+
+nlu:
+- intent: claim_document
+  examples: |
+    - What documents are needed for claim?
+    - claim process document
+    - document neeeded for claiming
+    - claim document
+    - claim processing document
+    - i need a claim document
+    - i need a document for claming
+    - What document are to be submitted for a death claim
+    - document for  death claim
+    - Document for death claim
+    - What document should we submit for death claim
+    - What document should I submit for death claim
+    - [Death claim]{"entity":"death claim","value": "Death claim"} document submission
+    - [non death claim]{"entity":"non death claim","value":"non death claim"} document
+    - Requirement to claim
+    - i want to [dealth claim]{"entity":"death claim","value": "Death claim"} document
+    - i need a document to claim a [death] {"entity":"death claim","value": "Death claim"}
+    - i want to [non death ] {"entitiy":" non death claim","value": "Death claim"} claim document
+    - i need a document to [non death calim] {"entity":" non death claim","value": "Death claim"}
+    - what document should i submit for claim
+    
+
+
+      

@@ -1,0 +1,34 @@
+version: "3.0"
+
+nlu:
+- intent: agent_policy
+  examples: |
+    - agent policy
+    - i am agent i want to see my issued policy details
+    - can i see my issued policy i am agent
+    - how can i see my issued policy i am agent
+    - show my policy details i am agent
+    - how can agent see their issued policy details
+    - where can i get issued policy details i am agent
+    - agency policy details
+    - agent issued policy details
+    - plz show me my issued policy details, i am agent
+    - list out issued policy, i am agent
+    - can agent see their policy issued
+    - asking for issued policy, agent
+    - my issued policy details i am agent
+    - how to see agent police
+    - how to see my agent policy
+    - see my agent policy
+    - can ee my issued policy i am agent
+    - i am agent what are my issued policy 
+    - Kina loginma agent business ra anya bibaran khuldaina aajbholi?
+    - policy agent
+    - agent code kin log in hundain ?
+    - mero agent code kin log in hundain ?
+    - my code policy
+    - i am your agent I want to see my policy details
+    - I am agent my issued policies
+    - Agency policy
+    - My customer details
+    - Provide total policy details under my agent code. 

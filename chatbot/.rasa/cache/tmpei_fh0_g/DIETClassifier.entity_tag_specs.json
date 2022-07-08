@@ -1,0 +1,52 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-branch",
+      "2": "I-branch",
+      "3": "L-branch",
+      "4": "U-branch",
+      "5": "B-claim type",
+      "6": "I-claim type",
+      "7": "L-claim type",
+      "8": "U-claim type",
+      "9": "B-death claim",
+      "10": "I-death claim",
+      "11": "L-death claim",
+      "12": "U-death claim",
+      "13": "B-location",
+      "14": "I-location",
+      "15": "L-location",
+      "16": "U-location",
+      "17": "B-non death claim",
+      "18": "I-non death claim",
+      "19": "L-non death claim",
+      "20": "U-non death claim",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-branch": 1,
+      "I-branch": 2,
+      "L-branch": 3,
+      "U-branch": 4,
+      "B-claim type": 5,
+      "I-claim type": 6,
+      "L-claim type": 7,
+      "U-claim type": 8,
+      "B-death claim": 9,
+      "I-death claim": 10,
+      "L-death claim": 11,
+      "U-death claim": 12,
+      "B-location": 13,
+      "I-location": 14,
+      "L-location": 15,
+      "U-location": 16,
+      "B-non death claim": 17,
+      "I-non death claim": 18,
+      "L-non death claim": 19,
+      "U-non death claim": 20,
+      "O": 0
+    },
+    "num_tags": 21
+  }
+]

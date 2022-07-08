@@ -1,0 +1,12 @@
+version: "3.0"
+
+nlu:
+- intent: reliable_branch
+  examples: |
+      - can you show me all the reliable brancher
+      - i need to know about where are reliabe branches
+      - all branch
+      - reliable branches
+
+     
+      

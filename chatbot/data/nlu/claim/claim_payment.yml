@@ -1,0 +1,14 @@
+version: "3.0"
+
+nlu:
+- intent: claim_payment
+  examples: |
+    - what are the method of claim  amount payment
+    - claim amount payment
+    - i want to pay for claim
+    - how can i pay for claim
+    - suggest me pay  how to claim
+    - how can i buy a claim
+    - claim payment
+    - clam payment method
+

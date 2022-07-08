@@ -1,0 +1,166 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - greetings sup
+    - good morning whatsup
+    - hi
+    - hello greetings are you around
+    - hey greetings how are you
+    - hello whats up
+    - hi greetings are you around
+    - hey morning are you around?
+    - hello
+    - hey
+    - hi good day how are you doing
+    - hey morning how is it going
+    - hi good night are you there
+    - hey greetings whatsup
+    - good morning whats up
+    - hi good afternoon
+    - hello good day are you around?
+    - hi good morning whats up
+    - good night how are you doing
+    - hey how are you doing
+    - good afternoon are you around
+    - hi good afternoon are you around?
+    - hi good day whatsup
+    - hello morning how is it going
+    - hey good day how are you
+    - hello good day how are you
+    - hi how is it going
+    - hi are you there
+    - good morning how are you
+    - hi good day how is it going
+    - hello good day sup
+    - hi morning whats up
+    - hello good night how are things going
+    - good afternoon how are you doing
+    - hi good night are you around
+    - morning
+    - good morning are you around?
+    - hey greetings how are things going
+    - greetings are you around?
+    - good day how are you doing
+    - hi good morning are you there
+    - hey whatsup
+    - hello good afternoon are you there
+    - hello how are you
+    - morning how is it going
+    - hey morning how are you
+    - hey morning are you there
+    - hello good night are you around?
+    - good afternoon how are you
+    - hello whatsup
+    - namaste 
+    - hey
+    - hii
+    - heya
+    - whats up
+    - sup
+    - sup?
+    - hello
+    - hi
+    - heya
+    - hiii
+    - hlw
+    - k xa
+    - k cha
+    
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - i am fine
+    
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - who are you?
+
+
+- intent : why_insurance
+  examples: |
+     - why insurance is important
+     - why insurance
+     - benefits of life insurance
+     - why should i do life insurance
+     - Why Insurance is needed for man /woman
+     - why should i do my insurance
+     - why is insurance important
+     - i want to know the importance of insurances
+     - what are the importance of insurance
+      - why should we do insurance
+      - why to do insurance
+      - why to insure
+      - insurance is important why
+      - why is insurance important for human
+      - tell me why insurance is important
+      - let me know why is insurance important
+      - why should i insure myself

@@ -1,0 +1,10 @@
+version: "3.0"
+
+nlu:
+- intent: claim_rejection
+  examples: |
+
+    - when is claim rejected
+    - how is  claim rejected
+    - claim reject case
+    - claim rejection case

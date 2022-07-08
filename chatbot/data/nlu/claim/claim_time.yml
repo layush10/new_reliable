@@ -1,0 +1,18 @@
+version: "3.0"
+
+nlu:
+- intent: claim_time
+  examples: |
+
+     - claim process time
+     - how much time does it take to process a claim
+     - duration needed to cliam
+     - amout of time required to process a claim
+     - claim processing time
+     - how much time does it to get a claim
+     - how much duration is required to issued a claim
+     - what is the time frame with in which claim has to be reported to a company
+     - what are the time frame of claim
+     - what is the time frame of claim
+     - what is the time frame with in which the claim has to be reported
+     - time frame for claim

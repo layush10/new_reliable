@@ -1,0 +1,9 @@
+version: "3.0"
+
+nlu:
+- intent: claim_benifits
+  examples: |
+    - who is entitled to receive a claim benifits
+    - what is claim benifis
+    - who receive claim benifits
+    - who get claim benifits

@@ -1,0 +1,9 @@
+version: "3.0"
+
+nlu:
+- intent: payment_receipt
+  examples: |
+    - I have paid amount i need a receipt
+    - can i have a receipt of my payment
+    - receipt of my  payment
+    - receipt

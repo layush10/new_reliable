@@ -1,0 +1,12 @@
+version: "3.0"
+
+nlu:
+- intent: claim_settlement_document
+  examples: |
+
+    - how many days are taken to settle a claim
+    - days to settle a claim
+    - claim settlement 
+    - claim settlement time
+    - claim settlement days
+  

@@ -1,0 +1,37 @@
+version: "3.0"
+
+nlu:
+- intent: payment
+  examples: |
+      - I want to pay
+      - Renewal payment
+      - How to pay
+      - Help me to pay premium
+      - I want payment premium
+      - How to payment premium
+      - I need to pay
+      - I want to pay my insurance
+      - How can I make payment
+      - Can I pay my due through Esewa
+      - Can I pay my renewal through Esewa
+      - Can I pay my renewal through Khalti
+      - Can I pay my due through Khalti
+      - How can I pay my due
+      - How can I pay my due premium
+      - What can I do to renew the old policy
+      - Where to contact for payment
+      - How to pay my insurance premium
+      - I want to do payment
+      - What are the bank in which I can pay
+      - I want to do payment plz give me bank details
+      - I want bank details for payment
+      - Bank details for payment
+      - Bank details
+      - Bank detail
+      - Interested to pay display bank details
+      - Bank details to pay
+      - Can I pay my premium online
+      - Renew my policy
+      - Renew my old policy
+      - How can I renew my old policy
+      - What can I do to renew the old policy

@@ -1,0 +1,6 @@
+version: "3.0"
+
+nlu:
+- intent: list_of_policy_deu_for_renewal
+  examples: |
+    - 

@@ -1,0 +1,14 @@
+version: "3.0"
+
+nlu:
+- intent: agent_fee
+  examples: |
+    - what is agent fee
+    - agent fee
+    - i want to know agent fee
+    - how to know agent fee
+    - any fee for agent
+    - i want to what is your agent fee
+    - i need to know about agent fee
+    - how can i know about agent fee
+    - can you tell me about agent fee

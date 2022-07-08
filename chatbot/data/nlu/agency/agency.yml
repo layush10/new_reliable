@@ -1,0 +1,23 @@
+version: "3.0"
+
+nlu:
+- intent: agency
+  examples: |
+    - agency
+    - Agency
+    - Who are the agency of Relaiable life 
+    - what are agency of Reliable life 
+    - Agency
+    - How to take agency
+    - Process to take agency
+    - What should i do to take agency
+    - i want to take agency
+    - want to take agency
+    - Interested to take agency 
+    - take agency
+    - agency take
+    - tell me about agency
+    - can you tell about agency
+    - explain about agency
+   
+

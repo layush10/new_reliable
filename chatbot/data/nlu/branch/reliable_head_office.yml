@@ -1,0 +1,17 @@
+version: "3.0"
+
+nlu:
+- intent: relliable_head_office
+  examples: |
+   - where is the head office
+   - where is the head office of reliable life insurance
+   - how can i contact head office
+   - head office
+
+- synonym: head office
+  examples: |
+    - main office
+    - main branch
+    - main location
+    - central branch
+    - central location

@@ -1,0 +1,17 @@
+version: "3.0"
+
+nlu:
+- intent: corporate_agent
+  examples: |
+    - corporate agent
+    - may i know about corporate agent
+    - how can i know about corporate agent
+    - how do i know about corporate agent
+    - i need to know about corporate agent
+    - i have to know about corporate agent
+    - tell me about corporate agent
+    - would you mind telling me about corporate agent
+    - could you tell me about corporate agent
+    - corporate agent ko bare maa kasari tha paune
+    - please let me know about corporate agent
+    

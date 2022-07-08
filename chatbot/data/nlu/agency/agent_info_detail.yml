@@ -1,0 +1,43 @@
+version: "3.0"
+
+nlu:
+- intent: agent_info_detail
+  examples: |
+    - agentinfo
+    - agent detail
+    - agent details
+    - my details i am agent
+    - i want my details, i am agent
+    - display my details, i am agent
+    - i am your agent i want my details
+    - where can i get my details, i am agent
+    - plz view agent details
+    - how can i get my details, i am agent
+    - being agent where should i contact for details
+    - can i get details, i am agent
+    - agency details
+    - i am agent, my full details
+    - i need agency details
+    - view my agency details
+    - need my agency details
+    - how can i get my agency details
+    - view my agency details
+    - i want to see my agency details
+    - i am agent plz view my details
+    - i have taken agency view my details 
+    - details of agent
+    - I want to view my pan number
+    - How to know agent details?
+    - My agent
+    - know my agent details
+    - my agency detail
+    - i am an agent and want to know my agent details
+    - why agent details not opened
+    - agent info
+    - Agents ditlsa
+    - Can I get my agency details
+    - agent diteal
+    - hello i am agent how to know my details
+    - i am a agent how can i see my details
+    - Agent information
+    - total agent

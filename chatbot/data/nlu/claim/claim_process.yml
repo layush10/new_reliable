@@ -1,0 +1,10 @@
+version: "3.0"
+
+nlu:
+- intent: claim_process
+  examples: |
+    - process for [death claim]{"entity":"claim type", "value":"death claim" }
+    - what is the process for [death claim]{"entity":"claim type", "value":"death claim" }
+    - claim process
+    - what is the process of [non death claim]{"entity":"claim type", "value":"non death claim" }
+    - [non death claim] [non death claim]{"entity":"claim type", "value":"non death claim" } process

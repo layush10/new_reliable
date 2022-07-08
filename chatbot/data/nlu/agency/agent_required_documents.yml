@@ -1,0 +1,10 @@
+version: "3.0"
+
+nlu:
+- intent: agent_required_documents
+  examples: |
+    - what is the required document to be a agent?
+    - what is the requirement document for an agent?
+    - can i get the require document to be a agent
+    - i need to fill required document for becoming an agent
+    

@@ -1,0 +1,52 @@
+version: "3.0"
+
+nlu:
+- intent: agency_policy_date
+  examples: |
+    - Agent due
+    - List of policy for renewal 
+    - show due list of policy for renewal, i am agent
+    - i want to see the due of policy for renew
+    - agent Policy for renewal
+    - List of agent due
+    - List out agent due
+    - Pending agency due
+    - Agency due left for payment
+    - i am agent want to see due of policy for renew
+    - What are the pending list for agency policy due
+    - Agency due
+    - Want to know about agentpolicy due
+    - How can i know about policy for renewal i am agent
+    - Interested to know about agency due
+    - Information about the agent due for renewal
+    - Let me know about renual policy
+    - Agent due list
+    - can you list out the due of policy for renewal i am agent
+    - i am an agent and i want to see the renewal policies
+    - agent renewal policies
+    - i want to know about agent policies for renewal
+    - need to know the list of due policies
+    - i want to know the agency due
+    - tell me the agent policy for renewal
+    - let me know the agent renewal policies
+    - i am an agent show me due policies
+    - mero code ma kati jana renewa ko lagi time vayo?
+    - my agent due policy
+    - i want to know my due policy for renewal
+    - pending due policy
+    - renewal policy
+    - want to see the agency renewal policies
+    - how can i know my premium i am an agent
+    - i am an agent would u plz tell me my renewal
+    - i am an agent and I want to know my agent policies for renewal
+    - how can i know my renewal policies i am an agent
+    - about agency premium
+    - agency left payment
+    - i need to know my agency due for renewal
+    - let me knw my agency due
+    - how to knw my agency due
+    - help me to know my agency due
+    - can you please tell me my agency due
+    - plz help ,e to knw my agency due
+    - could you plz tell me my agency due
+    - want to know about agency due

@@ -1,0 +1,15 @@
+version: "3.0"
+
+nlu:
+- intent: claim
+  examples: |
+    - regarding claim
+    - can you tell me about claim
+    - How I'm claim
+    - claim settlement
+    - death cleam
+    - And when I type Claims 
+    - type claim
+    - take me to claim
+    - i have queries about claim
+    - I want to claim

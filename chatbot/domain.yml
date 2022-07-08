@@ -1,0 +1,176 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - agency_downline_business
+  - agency_policy_date
+  - agency
+  - agency_commission
+  - agent_fee
+  - agent_info_detail
+  - agent_login
+  - edit_update_profile
+  - agent_policy
+  - agent_required_documents
+  - agent_training_info
+  - corporate_agent
+  - branch_location_near_me
+  - branch_manager_number
+  - reliable_branch
+  - relliable_head_office
+  - claim_document
+  - claim_benifits
+  - payment
+  - payment_receipt
+  - policy_deu
+
+entities:
+  - branch
+  - location
+  - death claim
+  - non death claim
+  - agent type
+  - agent_type
+
+
+slots:
+  agent_type:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from-entity
+      entity: agent_type
+  
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+ 
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "good bye see you soon"
+  - text: "good bye see you later"
+  - text: "bye bye"
+  - text: "good bye take care"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  
+  utter_agency_downline_business:
+  - text: "response will come from backend"
+
+  utter_agency_policy_date:
+  - text: "resonse of policy deu also comes from api"
+
+  utter_agency:
+  - text: "Please select the options below:"
+    buttons:
+    - title: "Downline Business"
+      payload: "/agency_downline_business"
+    - title: "View Details"
+      payload: "/agent_info_detail"
+    - title: "Edit/Update profile"
+      payload: "/edit_update_profile"
+    - title: "Become an Agent"
+      payload: "/agent_login"
+
+  utter_agency_commission:
+  - text: "agency commission predicteds"
+
+  utter_agent_fee:
+  - text: "agent fee predicteds predicteds"
+
+  utter_agent_info_detail:
+  - text: "agent_info_detail predicteds"
+
+  utter_agent_login:
+  - text: "Are you existing agent or a new agent please choose the option below"
+    buttons:
+    - title: "Existing Agent"
+      payload: "/agent_info_detail"
+    - title: "New Agent"
+      payload: "/agent_info_detail"
+  
+  utter_edit_update_profile:
+  - text: "agent_plan_change predicteds"
+
+  utter_agent_policy:
+  - text: " agent_policy predicteds"
+
+  utter_agent_required_documents:
+  - text: "agent_required_documents predicteds"
+
+  utter_agent_training_info:
+  - text: "agent training info predicteds"
+
+  utter_corporate_agent:
+  - text: "corporate_agent predicteds"
+
+  utter_branch_manager_number:
+  - text: " branch managaer numbemr predicted"
+
+  utter_reliable_branch:
+  - text: "reliable_branch intent predicted"
+
+  utter_branch_location_near_me:
+  - text: "branch location near me predicteds"
+
+  utter_relliable_head_office:
+  - text: "reliable head office intent predicteds"
+
+  utter_claim_settlement_document:
+  - text: "15 days after receiving all the required document for non investigation case"
+  
+  utter_claim_rejection:
+  - text: "A claim is rejected if 'non-disclosure' or 'misstatement' of facts is discovered during an investigation. When a fact that affects the policy issuance decision is not disclosed in the proposal, it is termed as 'non-disclosure'. Similarly, withholding information or providing incorrect information while answering questions in the proposal form is termed as, 'misstatement'.
+            For example, when an applicant suffering from kidney failure does not inform the insurer about the same in the proposal form, it is termed as non-disclosure. Similarly, when an applicant overstates his or her income, then it is called a misstatement.
+            "
+  uttter_claim_benifits:
+  - text: "claim benifits intenbt predicted"
+  
+  utter_payment:
+  - text: "You can pay through online or your nearest branch or through bank. Below are the list of banks for payment."
+
+  utter_payment_receipt:
+  - text: "receipt is sent in email"
+
+  utter_policy_deu:
+  - text:  Are you Agent or Policy holder?
+    buttons:
+    - title: Agent
+      payload: /policy_deu{{"agent_type":"agent"}}
+    - title: Policy Holder
+      payload: /policy_deu{{"agent_type":"policy hoder"}}
+
+  utter_agent:
+  - text: "welcome to view my agent deu profile"
+
+  utter_policy_holder:
+  - text: "welcome  to view my policy holder profile"
+
+
+    
+actions:
+  - action_hello_world
+  - action_greet
+  - action_policy_due
+
+   
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

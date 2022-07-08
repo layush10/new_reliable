@@ -1,0 +1,19 @@
+version: "3.0"
+
+nlu:
+- intent: agent_login
+  examples: |
+    - i want to login
+    - i am agent i want to log in
+    - how can i log in
+    - how to log in
+    - how to log in as agent
+    - how can i log in as agent
+    - I want to login as [existing]{"entity":"agent type" ,"value": " existing "}
+    - want to login in as [new]{"entity":"agent type" ,"value": " existing "}
+    -  [existing]{"entity":"agent type" ,"value": " existing "} agent
+    -  [new]{"entity":"agent type" ,"value": " existing "}
+    - log me in as  [new]{"entity":"agent type" ,"value": " existing "} agent
+    - log me in as [existing]{"entity":"agent type" ,"value": " existing "} agent
+    - want to become an agent
+  
